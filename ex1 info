@@ -1,0 +1,4 @@
+ S=input("entrer la valeur des secondes:");
+ h=mod(s,3600)/3600
+ m=mod(s,3600)-mod(h,60)/60
+ s=mod(h,60)
